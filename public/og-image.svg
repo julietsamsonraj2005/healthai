@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="hsl(172, 66%, 36%)"/>
+  
+  <!-- Grid Pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="hsl(172, 66%, 46%)" stroke-width="1" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Main Content -->
+  <g transform="translate(600, 315)">
+    <!-- Large Logo Circle -->
+    <circle cx="0" cy="-50" r="80" fill="white" stroke="hsl(172, 66%, 30%)" stroke-width="4"/>
+    
+    <!-- Heart with ECG -->
+    <path d="M0 -30 C0 -30, -30 -60, -30 -80 C-30 -90, -15 -100, 0 -90 C15 -100, 30 -90, 30 -80 C30 -60, 0 -30, 0 -30 Z" fill="hsl(172, 66%, 36%)"/>
+    <path d="M-80 -50 L-60 -50 L-50 -70 L-40 -30 L-20 -90 L0 -50 L20 -70 L40 -30 L60 -90 L80 -50 L100 -50" 
+          stroke="white" 
+          stroke-width="4" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Plus Symbol -->
+    <g transform="translate(60, 40)">
+      <circle cx="0" cy="0" r="20" fill="white" opacity="0.9"/>
+      <path d="M-10 0 L10 0 M0 -10 L0 10" stroke="hsl(172, 66%, 36%)" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Title -->
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle">
+      HealthAI
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="160" font-family="Arial, sans-serif" font-size="32" fill="hsl(172, 66%, 76%)" text-anchor="middle">
+      Clinical Health Management System
+    </text>
+    
+    <!-- Feature Pills -->
+    <g transform="translate(-200, 220)">
+      <rect x="0" y="0" width="150" height="40" rx="20" fill="white" opacity="0.2"/>
+      <text x="75" y="26" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">
+        Clinical Rules Engine
+      </text>
+    </g>
+    
+    <g transform="translate(50, 220)">
+      <rect x="0" y="0" width="150" height="40" rx="20" fill="white" opacity="0.2"/>
+      <text x="75" y="26" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">
+        Triage Engine
+      </text>
+    </g>
+  </g>
+  
+  <!-- Bottom Branding -->
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="24" fill="hsl(172, 66%, 76%)" text-anchor="middle">
+    Powered by AI • Professional Medical Insights
+  </text>
+</svg>
